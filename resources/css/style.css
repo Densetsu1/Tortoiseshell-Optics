@@ -127,4 +127,25 @@ li{
 .info{
   width: 35%;
   margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+/*****************************************************************************/
+/*FOOTER STYLES*/
+
+footer{
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 2rem;
+}
+
+footer .company{
+  color: Black;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
