@@ -4,11 +4,11 @@ html{
   font-family: "Helvetica", sans-serif;
   font-size: 18px;
   background-color: White;
-  line-height: 1.4;
 }
 
 body{
   color: White;
+  line-height: 1.4;
   margin: 0;
 }
 
@@ -18,6 +18,19 @@ h1{
   font-weight: bold;
   line-height: 1.2;
   padding: 1.5rem 5rem;
+}
+
+h2{
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+p{
+  color: black;
+  margin-top: 1rem;
 }
 
 .container{
@@ -76,4 +89,42 @@ li{
   background-color: White;
   margin-top: 10rem;
   margin-right: -2rem;
+}
+
+/*****************************************************************************/
+/*CONTENTS STYLES*/
+
+.services,
+.information{
+  display: flex;
+  justify-content: center;
+}
+
+.service,
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.service{
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+.service img{
+  width: 5rem;
+}
+
+#exam img{
+  width: 3.5rem;
+}
+
+
+.info{
+  width: 35%;
+  margin-right: 5%;
 }
